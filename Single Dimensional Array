@@ -1,0 +1,29 @@
+#include<stdio.h>
+void main( )
+{
+ 
+int marks[10] ; /* array declaration */
+
+ marks[0] = 11; /* store data in array */
+ marks[1] = 12;
+ marks[2] = 13;
+ marks[3] = 14;
+ marks[4] = 15;
+ marks[5] = 16;
+ marks[6] = 17;
+ marks[7] = 18;
+ marks[8] = 10;
+ marks[9] = 11;
+ 	 
+ printf("\nEnter marks %d",marks[0]) ; /* read data from an array*/
+ printf("\nEnter marks %d",marks[1]) ;
+ printf("\nEnter marks %d",marks[2]) ;
+ printf("\nEnter marks %d",marks[3]) ;
+ printf("\nEnter marks %d",marks[4]) ;
+ printf("\nEnter marks %d",marks[5]) ;
+ printf("\nEnter marks %d",marks[6]) ;
+ printf("\nEnter marks %d",marks[7]) ;
+ printf("\nEnter marks %d",marks[8]) ;
+ printf("\nEnter marks %d",marks[9]) ;
+  
+}
