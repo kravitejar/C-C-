@@ -1,0 +1,9 @@
+char str[20];
+int length ;
+
+printf("\nEnter the String : ");
+gets(str);
+
+length = strlen(str);
+
+printf("\nLength of String : %d ", length);
