@@ -1,0 +1,8 @@
+struct Patient
+{
+    float height;
+    int weight;  
+    int age; 
+};
+
+struct Patient p1 = { 180.75 , 73, 23 };    //initialization
