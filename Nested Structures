@@ -1,0 +1,12 @@
+struct Student
+{
+    char[30] name;
+    int age;
+    /* here Address is a structure */
+    struct Address
+    {
+        char[50] locality;
+        char[50] city;
+        int pincode;		
+    }addr;
+};
