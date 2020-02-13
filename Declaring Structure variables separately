@@ -1,0 +1,10 @@
+struct Student
+{
+    char name[25];
+    int age;
+    char branch[10];
+    //F for female and M for male
+    char gender;
+};
+
+struct Student S1, S2;      //declaring variables of struct Student
